@@ -1,0 +1,12 @@
+specVersion: "v1beta"
+serviceId: "dashcode-nextjs-starter-kit"
+location: "us-central1"
+schema:
+  source: "./schema"
+  datasource:
+    postgresql:
+      database: "fdcdb"
+      cloudSql:
+        instanceId: "dashcode-nextjs-starter-kit-fdc"
+      # schemaValidation: "COMPATIBLE"
+connectorDirs: ["./connector"]
